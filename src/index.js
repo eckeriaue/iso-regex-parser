@@ -1,15 +1,15 @@
 import { default as iso } from './iso'
 import { default as utc } from './utc'
-import { default as sqlDate } from './sqlDate'
+import { default as sql } from './sql'
 
 export {
   iso,
   utc,
-  sqlDate,
+  sql,
 }
 
 export default {
   iso,
   utc,
-  sqlDate,
+  sql,
 }
