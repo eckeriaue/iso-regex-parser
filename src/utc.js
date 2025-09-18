@@ -1,1 +1,1 @@
-export default /^(?<weekday>Mon|Tue|Wed|Thu|Fri|Sat|Sun), (?<day>\d{2}) (?<month>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (?<year>\d{4}) (?<hour>\d{2}):(?<minute>\d{2}):(?<second>\d{2}) GMT$/
+export default /^(?<weekday>Mon|Tue|Wed|Thu|Fri|Sat|Sun), (?<day>0[1-9]|[12]\d|3[01]) (?<month>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (?<year>\d{4}) (?<hour>[01]\d|2[0-3]):(?<minute>[0-5]\d):(?<second>[0-5]\d) GMT$/
