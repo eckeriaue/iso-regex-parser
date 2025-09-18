@@ -3,8 +3,8 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   build: {
     lib: {
-      entry: './isoRegex.js',
-      name: 'IsoRegexParser',
+      entry: './src/index.js',
+      name: 'DateRegexParser',
       formats: ['es', 'umd'],
     },
     outDir: 'dist',

@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import isoRegex from './isoRegex'
+import isoRegex from '../src/iso'
 
 test('parse ISO strings', () => {
   const cases = [
