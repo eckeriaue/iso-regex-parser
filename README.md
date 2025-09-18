@@ -1,6 +1,7 @@
 # Date Parsing Regular Expressions
 ## Description
 This project provides a set of regular expressions for parsing date strings in ISO 8601, UTC, and SQL formats. Each regex extracts date and time components (year, month, day, hour, minute, second, milliseconds, timezone) into an object like:
+```js
 {
   year: "2025",
   month: "09",
@@ -11,9 +12,11 @@ This project provides a set of regular expressions for parsing date strings in I
   ms: undefined,
   tz: "+03:00"
 }
+```
 
 The project uses Vite to build the regular expressions into a module.
-Installation
+
+## Installation
 
 Clone the repository:
 ```sh
